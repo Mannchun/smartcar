@@ -50,3 +50,12 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# PCB files
+*.log
+*.PrjPCBStructure
+*.htm
+__Previews
+History
+*.html
+*.LOG
