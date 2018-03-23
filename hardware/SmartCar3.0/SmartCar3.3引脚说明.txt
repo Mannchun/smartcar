@@ -1,0 +1,78 @@
+芯片1：
+电流检测(ADC)：
+PTE0    ADC1_SE4a
+
+蓝牙：
+PTE24    UART4
+PTE25    UART4
+
+舵机：
+PTA12    FTM1_CH0
+
+摄像头：
+SDA    PTD1
+SCL    PTD0
+VS     PTC17
+PCL    PTC16
+DATA   PTC8~PTC15
+
+拨码开关：
+PTD4
+PTD5
+PTD6
+PTD7
+
+测速编码器：
+A相   PTB18
+B相   PTB19
+
+电机：
+Motor    PTC3   FTM0_CH2
+	 PTC4   FTM0_CH3
+
+LED灯：
+PTE1
+
+OLED：
+DC    PTB21
+RST   PTB17
+D1    PTB16
+D0    PTB11
+
+电池电压检测：
+PTB10    ADC1_SE14
+
+五向开关：
+下   PTB0
+右   PTB3
+上   PTB2
+中   PTB9
+左   PTB1
+
+芯片2：
+WIFI：
+PTE0    UART1
+PTE1    UART1
+
+蓝牙：
+PTD2    UART2
+PTD3    UART2
+
+LED灯：
+PTA14
+PTA15
+PTA16
+
+蜂鸣器：
+PTA5
+
+摄像头：
+SDA    PTD1
+SCL    PTD0
+VS     PTC17
+PCL    PTC16
+DATA   PTC8~PTC15
+
+两芯片之间通讯：（芯片1——芯片2）
+UART：
+UART3(PTE4 PTE5)——UART3(PTB11 PTB10)

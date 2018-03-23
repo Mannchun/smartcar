@@ -1,0 +1,99 @@
+Protel Design System Design Rule Check
+PCB File : E:\Freescale\PCB\SmartCar3.0\MCU.PcbDoc
+Date     : 2017/5/2
+Time     : 22:30:25
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Silk primitive without silk layer
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.09mm) (All),(All)
+   Violation between Via (78.74mm,97.028mm) Top Layer to Bottom Layer and 
+                     Pad U2-92(78.518mm,95.586mm)  Top Layer
+   Violation between Via (79.518mm,97.044mm) Top Layer to Bottom Layer and 
+                     Pad U2-90(79.518mm,95.586mm)  Top Layer
+   Violation between Via (86.614mm,93.98mm) Top Layer to Bottom Layer and 
+                     Pad U2-75(88.093mm,94.011mm)  Top Layer
+   Violation between Via (86.741mm,82.169mm) Top Layer to Bottom Layer and 
+                     Pad U2-52(88.093mm,82.511mm)  Top Layer
+   Violation between Via (109.307mm,90.003mm) Top Layer to Bottom Layer and 
+                     Pad U1-8(107.868mm,90.003mm)  Top Layer
+   Violation between Via (109.474mm,81.407mm) Top Layer to Bottom Layer and 
+                     Pad U1-26(109.443mm,79.927mm)  Top Layer
+   Violation between Via (110.998mm,78.486mm) Top Layer to Bottom Layer and 
+                     Pad U1-29(110.943mm,79.927mm)  Top Layer
+   Violation between Via (118.276mm,78.525mm) Top Layer to Bottom Layer and 
+                     Pad U1-43(117.943mm,79.927mm)  Top Layer
+   Violation between Via (118.276mm,78.525mm) Top Layer to Bottom Layer and 
+                     Pad U1-44(118.443mm,79.927mm)  Top Layer
+   Violation between Via (114.046mm,93.726mm) Top Layer to Bottom Layer and 
+                     Pad U1-90(114.443mm,95.078mm)  Top Layer
+   Violation between Via (115.062mm,73.406mm) Top Layer to Bottom Layer and 
+                     Pad X_A1-1(115.875mm,72.263mm)  Top Layer
+   Violation between Via (84.201mm,91.821mm) Top Layer to Bottom Layer and 
+                     Pad C18-1(83.312mm,90.678mm)  Bottom Layer
+   Violation between Via (84.201mm,91.821mm) Top Layer to Bottom Layer and 
+                     Pad C18-2(83.312mm,92.964mm)  Bottom Layer
+   Violation between Via (82.423mm,82.169mm) Top Layer to Bottom Layer and 
+                     Pad C16-1(83.236mm,81.026mm)  Bottom Layer
+   Violation between Via (82.423mm,82.169mm) Top Layer to Bottom Layer and 
+                     Pad C16-2(83.236mm,83.312mm)  Bottom Layer
+   Violation between Via (108.458mm,78.867mm) Top Layer to Bottom Layer and 
+                     Pad L4-2(108.204mm,80.137mm)  Bottom Layer
+   Violation between Via (109.474mm,81.407mm) Top Layer to Bottom Layer and 
+                     Pad L2-1(110.49mm,82.423mm)  Bottom Layer
+   Violation between Via (111.506mm,81.28mm) Top Layer to Bottom Layer and 
+                     Pad L3-2(112.395mm,80.137mm)  Bottom Layer
+   Violation between Via (111.506mm,81.28mm) Top Layer to Bottom Layer and 
+                     Pad L1-2(112.395mm,82.423mm)  Bottom Layer
+   Violation between Via (111.76mm,83.693mm) Top Layer to Bottom Layer and 
+                     Pad L1-2(112.395mm,82.423mm)  Bottom Layer
+   Violation between Via (120.943mm,82.13mm) Top Layer to Bottom Layer and 
+                     Pad C4-1(119.761mm,82.423mm)  Bottom Layer
+   Violation between Via (92.71mm,83.693mm) Top Layer to Bottom Layer and 
+                     Via (91.948mm,84.074mm) Top Layer to Bottom Layer
+   Violation between Via (93.472mm,82.169mm) Top Layer to Bottom Layer and 
+                     Via (93.472mm,83.058mm) Top Layer to Bottom Layer
+   Violation between Via (115.697mm,78.105mm) Top Layer to Bottom Layer and 
+                     Via (114.808mm,78.105mm) Top Layer to Bottom Layer
+   Violation between Via (88.138mm,81.153mm) Top Layer to Bottom Layer and 
+                     Via (88.9mm,80.772mm) Top Layer to Bottom Layer
+   Violation between Via (87.503mm,80.645mm) Top Layer to Bottom Layer and 
+                     Via (88.138mm,81.153mm) Top Layer to Bottom Layer
+Rule Violations :26
+
+Processing Rule : Hole To Hole Clearance (Gap=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.254mm) (Max=4mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.1mm) (Max=2mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.12mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+
+Violations Detected : 26
+Time Elapsed        : 00:00:05

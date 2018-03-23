@@ -1,0 +1,17 @@
+Board Information Report
+Filename     : E:\Freescale\PCB\SmartCar3.0\Main.PcbDoc
+Date         : 2017/4/12
+Time         : 14:52:03
+Time Elapsed : 00:00:00
+
+General
+    Board Size, 150.2548mmx70.2548mm
+    Components on board, 122
+count : 2
+
+Routing Information
+    Routing completion, 100.00%
+    Connections, 354
+    Connections routed, 354
+    Connections remaining, 0
+count : 4
