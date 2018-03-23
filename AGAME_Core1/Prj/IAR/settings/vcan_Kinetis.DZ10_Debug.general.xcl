@@ -1,0 +1,15 @@
+"D:\IAR\arm\bin\armproc.dll" 
+
+"D:\IAR\arm\bin\armjlink2.dll" 
+
+"D:\IEonid\Ceibo\Code\第二次调试\AGAME_Core1\Prj\IAR\DZ10_Debug\Exe\vcan_Kinetis.out" 
+
+--plugin "D:\IAR\arm\bin\armbat.dll" 
+
+--device_macro "D:\IAR\arm\config\debugger\NXP\Kxx.dmac" 
+
+--flash_loader "D:\IAR\arm\config\flashloader\NXP\FlashK60Dxxx128K.board" 
+
+
+
+

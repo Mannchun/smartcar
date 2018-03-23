@@ -1,0 +1,86 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[JLinkDriver]
+CStepIntDis=_ 0
+LeaveTargetRunning=_ 0
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000004
+[DebugChecksum]
+Checksum=-268412194
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[FlashMemory]
+FlashEraseSelection=0 1    
+[struct_types]
+Fmt0=Barrier-dEdge	3	0
+Fmt1=Barrier-lEdge	3	0
+Fmt2=Barrier-rEdge	3	0
+Fmt3=Barrier-uEdge	3	0
+[array_types]
+Fmt0=uint8[600]	2	0
+Fmt1=uint8[80]	3	0
+[watch_formats]
+Fmt0={W}1:Bar	3	0
+Fmt1={W}1:i	3	0
+Fmt2={W}1:j	3	0
+[Trace1]
+Enabled=0
+ShowSource=1
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "EMUL_CODE" "0x000033EC" 0 0 1 "" 0 "" 0
+Bp1=_ 0 "EMUL_CODE" "0x000033E0" 0 0 1 "" 0 "" 0
+Bp2=_ 0 "EMUL_CODE" "0x000033C0" 0 0 1 "" 0 "" 0
+Bp3=_ 0 "EMUL_CODE" "0x000036B4" 0 0 1 "" 0 "" 0
+Count=4
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Aliases]
+A0=_ "C:\Users\Rench\Desktop\K60鹰眼摄像头例程\LCD_摄像头\App\MK60_conf.c" ""
+A1=_ "C:\Users\Rench\Desktop\K60鹰眼摄像头例程\LCD_摄像头\Board\src\VCAN_LED.C" ""
+A2=_ "C:\Users\Rench\Desktop\K60鹰眼摄像头例程\LCD_摄像头\Chip\src\IAR\system_MK60DZ10.c" ""
+A3=_ "C:\Users\Rench\Desktop\K60鹰眼摄像头例程\LCD_摄像头\Chip\src\MK60_SysTick.c" ""
+A4=_ "C:\Users\Rench\Desktop\K60鹰眼摄像头例程\LCD_摄像头\Chip\src\MK60_uart.c" ""
+A5=_ "C:\Users\Rench\Desktop\K60鹰眼摄像头例程\LCD_摄像头\Chip\src\MK60_wdog.c" ""
+A6=_ "C:\Users\Rench\Desktop\K60鹰眼摄像头例程\LCD_摄像头\Chip\src\misc.c" ""
+A7=_ "C:\Users\Rench\Desktop\K60鹰眼摄像头例程\摄像头，可识别信标\AGAME\App\main.c" ""
+A8=_ "C:\Users\Rench\Desktop\K60鹰眼摄像头例程\摄像头，可识别信标\AGAME\Lib\CMSIS\Inc\core_cm4.h" ""
+A9=_ "C:\Users\Rench\Desktop\K60鹰眼摄像头例程\摄像头，可识别信标\LCD_摄像头\Chip\src\IAR\system_MK60DZ10.c" ""
+A10=_ "C:\Users\Rench\Desktop\K60鹰眼摄像头例程\摄像头，可识别信标\LCD_摄像头\Chip\src\MK60_PIT.c" ""
+A11=_ "C:\Users\Rench\Desktop\K60鹰眼摄像头例程\摄像头，可识别信标\LCD_摄像头\Chip\src\MK60_wdog.c" ""
+A12=_ "C:\Users\Rench\Desktop\K60鹰眼摄像头例程\摄像头，可识别信标\LCD_摄像头\Chip\src\misc.c" ""
+A13=_ "D:\IEonid\Ceibo\Code\全国赛\AGAME_Core2\App\main.c" ""
+Count=14
+SuppressDialog=1
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[CallStackLog]
+Enabled=0
+[CallStackStripe]
+ShowTiming=1
